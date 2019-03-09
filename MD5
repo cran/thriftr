@@ -1,7 +1,7 @@
-6c4a36fe8b7310e076de23059bc37974 *DESCRIPTION
+5ce937420fe220dc18312099cb0fbe41 *DESCRIPTION
 40dac60eb781f6da2d7165c152d744db *LICENSE
 4b2128da7b9d8fe95f80e37271d0d86d *NAMESPACE
-7c5ba814e3df7321c6b36e9fec78d89c *R/parser.R
+8205d41aae252d9cce80aff3b4e3342a *R/parser.R
 1b944f19351377a4941d9e74cb1a76ed *R/protocol_binary.R
 6b28a4f4b15f15678e6d3112e1aeb537 *R/rpc.R
 befd86c37efd6fc63e461be3ea84d4f5 *R/server.R
@@ -50,7 +50,7 @@ a5f43e292f969283d1ee22f4ea4d2c52 *man/to_proper_struct.Rd
 e4581e23ee5dfcdcba58f4112692a951 *tests/testthat/addressbook.thrift
 9e68416669d97e9703ba88eba5a083ef *tests/testthat/base.thrift
 77b771c219673c11a0bff1ffdc6b03b1 *tests/testthat/const.thrift
-68cb9ed77a5f8f8c74bc2c188d05211d *tests/testthat/container.thrift
+952ca3e3484dd17847542f347778d190 *tests/testthat/container.thrift
 ad9e928eacc6c1a766dd3f302df0a0d4 *tests/testthat/multiplexed.thrift
 ea43730a7847968a1231cfaf5cf2685c *tests/testthat/parent.thrift
 c040557232ca4b51f0b3ccf74cac40a1 *tests/testthat/parser-cases/comments.thrift
@@ -72,7 +72,7 @@ b55fae697fcb6606fa8a6cd698310d0b *tests/testthat/parser-cases/e_use_thrift_reser
 99f356dfc8e462e2450352b3b933ca19 *tests/testthat/parser-cases/e_value_ref_0.thrift
 590a2fedf43494defe63b4e9c60856d1 *tests/testthat/parser-cases/e_value_ref_1.thrift
 49844f57925e4d9f80ca18688f6b64af *tests/testthat/parser-cases/e_value_ref_2.thrift
-77a06eea46b47dde1cb26c531e1c512e *tests/testthat/parser-cases/enums.thrift
+bcf84d70b9b210f9781fff2d7e0dd994 *tests/testthat/parser-cases/enums.thrift
 83becd113bc5f9d085e40d715b7d32d0 *tests/testthat/parser-cases/include.thrift
 19b257afd13724a444b8c5c7fff50fdb *tests/testthat/parser-cases/included.thrift
 308539f2bab6248cb1531a28ed82e06f *tests/testthat/parser-cases/issue_215.thrift
@@ -86,11 +86,13 @@ ddba49f0c4f65afc5df2cee920e29e8f *tests/testthat/parser-cases/structs.thrift
 a7b3489a6378302943042fa05d4f33d2 *tests/testthat/parser-cases/type_ref_shared.thrift
 ab45d44af3c47891b47c9b2edd661abb *tests/testthat/parser-cases/value_ref.thrift
 ab0cbc11855d914b42ff88b932bfa818 *tests/testthat/parser-cases/value_ref_shared.thrift
+188e33674520c7e5fa685984b3d059df *tests/testthat/recursive_definition.thrift
 d9c59a949d4441dec0a83aa04b6961dd *tests/testthat/storm.thrift
 eb4b135e5adbf89897b471dee2f8d9c5 *tests/testthat/test.test_base.R
 586629d5e344be0ce39d2f118a21efa2 *tests/testthat/test.test_const.R
 dde17ae6dc96a12019dab2d5ebe94123 *tests/testthat/test.test_parser.R
 a317de459a537e481d9619878c3fe023 *tests/testthat/test.test_protocol_binary.R
+c8f255c88baadc6f8562a40929acc53f *tests/testthat/test.test_recursive_definition.R
 16922517ffcae5156147393e1c2c5505 *tests/testthat/test.test_socket.R
 54cef50b8c340bf0d8c1145e91e8d1d8 *tests/testthat/test.test_type.R
 0ef78b8787c93230c1d79a62888ead71 *tests/testthat/test.test_type_mismatch.R
