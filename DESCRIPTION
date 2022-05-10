@@ -1,8 +1,8 @@
 Package: thriftr
 Type: Package
 Title: Apache Thrift Client Server
-Version: 1.1.5
-Date: 2019-03-12
+Version: 1.1.7
+Date: 2022-05-08
 Authors@R: c(person("Marek", "Jagielski",
                     role = c("aut", "cre", "cph"),
                     email = "marek.jagielski@gmail.com"),
@@ -19,12 +19,12 @@ URL: https://github.com/systemincloud/thriftr
 BugReports: https://github.com/systemincloud/thriftr/issues
 Suggests: testthat
 Encoding: UTF-8
-Imports: R6, rly, stringi
+Imports: R6, rly (>= 1.7.4), stringi
 RoxygenNote: 6.0.1
 Collate: 'thrift.R' 'transport.R' 'rpc.R' 'parser.R'
         'protocol_binary.R' 'server.R' 'transport_buffered.R'
         'transport_memory.R' 'transport_socket.R' 'utils.R'
 NeedsCompilation: no
-Packaged: 2019-03-12 22:44:36 UTC; lupus
+Packaged: 2022-05-08 13:49:04 UTC; lupus
 Repository: CRAN
-Date/Publication: 2019-03-18 15:30:03 UTC
+Date/Publication: 2022-05-10 10:00:02 UTC
